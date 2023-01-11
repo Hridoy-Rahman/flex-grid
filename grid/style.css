@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px repeat(4,1fr);
+    grid-template-rows: 150px 100px 150px 200px;
+    gap: 20px;
+    padding:20px
+}
+.sidebar{
+    grid-row: 1 / -1;
+}
+.header{
+    grid-column: 2/-1;
+    background-color: #DBD8DA;
+}
+
+.chart-1{
+    grid-column: 2/4;
+}
+.chart-2{
+    grid-column: 4/-1;
+}
+.overview{
+    grid-column: 2/5;
+}
